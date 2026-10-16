@@ -238,3 +238,6 @@ z=5 上层：
 轴棱两层互为备，十二九宫此中成。
 
 后续：小化三角与帝5通道，见 docs/48-small-transformed-triangles.md。
+
+后续：自指归中稳定态见 docs/49-self-referential-centering.md；  
+全激活态与自约束系统见 docs/50-fully-activated-self-constraint.md。
