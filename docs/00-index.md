@@ -84,12 +84,19 @@
 | 32 | `32-scale-comparison.md` | 放大场景对比 |
 | 33 | `33-fixed-vs-learned.md` | 固定拓扑vs可训练网络 |
 
-### 第六层：自指与决策
+### 第六层：三角结构与外化通道
 
 | 编号 | 文档 | 内容 |
 |---|---|---|
 | 45 | `45-static-triangles.md` | 静态三角分类 |
+| 46 | `46-three-axes-field.md` | 三轴向量场与轴棱备份 |
+| 47 | `47-three-operators.md` | 三算子与三路并行 |
 | 48 | `48-small-transformed-triangles.md` | 小化三角与帝5通道 |
+
+### 第七层：自指与决策
+
+| 编号 | 文档 | 内容 |
+|---|---|---|
 | 49-55 | `49-55-index.md` | 自指稳定到动态决策索引 |
 | 49 | `49-self-referential-centering.md` | 自指归中稳定态 |
 | 50 | `50-fully-activated-self-constraint.md` | 全激活态与自约束 |
