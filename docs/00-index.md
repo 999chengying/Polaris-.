@@ -91,6 +91,7 @@
 | 07 | `07-military-analogy.md` | 军事理论映射 |
 | 08 | `08-experiment-checklist.md` | 实验清单 |
 | 09 | `09-file-manifest.md` | 文件清单 |
+| 49-55 | `49-55-index.md` | 自指稳定到动态决策索引 |
 
 ## 三、核心概念表
 
@@ -194,3 +195,5 @@ jiugong-bagua-cube/
 AI架构十八二五，通信市场二六二九。
 新赋值三十到三三，跨域通信三十四。
 先读总览再入门，按图索骥不迷路。
+
+
