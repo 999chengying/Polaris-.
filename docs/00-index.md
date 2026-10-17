@@ -84,6 +84,22 @@
 | 32 | `32-scale-comparison.md` | 放大场景对比 |
 | 33 | `33-fixed-vs-learned.md` | 固定拓扑vs可训练网络 |
 
+### 第六层：自指与决策
+
+| 编号 | 文档 | 内容 |
+|---|---|---|
+| 45 | `45-static-triangles.md` | 静态三角分类 |
+| 48 | `48-small-transformed-triangles.md` | 小化三角与帝5通道 |
+| 49-55 | `49-55-index.md` | 自指稳定到动态决策索引 |
+| 49 | `49-self-referential-centering.md` | 自指归中稳定态 |
+| 50 | `50-fully-activated-self-constraint.md` | 全激活态与自约束 |
+| 51 | `51-addressing-rule-and-exploration.md` | 寻址规则与探索能力 |
+| 52 | `52-active-addressing.md` | 能动寻址 |
+| 53 | `53-xian-heng-transformation-and-intent.md` | 咸恒转换与意图形成 |
+| 54 | `54-intent-to-action-pipeline.md` | 意图到执行四阶段 |
+| 55 | `55-dynamic-threshold.md` | 动态阈值 |
+| 56 | `56-intent-action-pseudocode.md` | 意图到执行伪代码 |
+
 ### 附录
 
 | 编号 | 文档 | 内容 |
@@ -168,6 +184,10 @@
 4. 等差差值法在真实任务上的表现；
 5. 事件驱动与轮询的最优混合比例；
 6. 三条链并行的实际加速比。
+7. 动态阈值v2在连续空间中的推广。
+8. 新旧赋值混合空间中的决策一致性。
+9. 多目标决策下的阈值扩展。
+10. 幂次差参与决策评分的方案。
 
 ## 七、仓库结构
 
@@ -196,4 +216,8 @@ AI架构十八二五，通信市场二六二九。
 新赋值三十到三三，跨域通信三十四。
 先读总览再入门，按图索骥不迷路。
 
+自指归中五四九，全激活态五十成。
+寻址规则五十一，能动寻址五十二。
+咸恒转换五十三，四阶段管五十四。
+动态阈值五十五，伪代码在五十六。
 
