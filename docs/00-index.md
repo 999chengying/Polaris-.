@@ -84,7 +84,7 @@
 | 32 | `32-scale-comparison.md` | 放大场景对比 |
 | 33 | `33-fixed-vs-learned.md` | 固定拓扑vs可训练网络 |
 
-### 第六层：三角结构与外化通道
+### 第六层：三角结构
 
 | 编号 | 文档 | 内容 |
 |---|---|---|
@@ -97,7 +97,6 @@
 
 | 编号 | 文档 | 内容 |
 |---|---|---|
-| 49-55 | `49-55-index.md` | 自指稳定到动态决策索引 |
 | 49 | `49-self-referential-centering.md` | 自指归中稳定态 |
 | 50 | `50-fully-activated-self-constraint.md` | 全激活态与自约束 |
 | 51 | `51-addressing-rule-and-exploration.md` | 寻址规则与探索能力 |
@@ -106,6 +105,18 @@
 | 54 | `54-intent-to-action-pipeline.md` | 意图到执行四阶段 |
 | 55 | `55-dynamic-threshold.md` | 动态阈值 |
 | 56 | `56-intent-action-pseudocode.md` | 意图到执行伪代码 |
+
+### 第八层：混合与连续
+
+| 编号 | 文档 | 内容 |
+|---|---|---|
+| 57 | `57-mixed-assignment-results.md` | 混合赋值空间实验结果 |
+| 58 | `58-continuous-sphere-results.md` | 球体连续化实验结果 |
+| 59 | `59-new-assignment-antipode-and-dual-sphere-results.md` | 新赋值对径合十与双球体 |
+| 60 | `60-system-overview-45-59.md` | 九宫体系总纲45-59 |
+| 61 | `61-great-circle-interpolation-and-attraction-results.md` | 大圆插值与双球体吸引力 |
+| 62 | `62-intent-action-pipeline-implementation-results.md` | 意图到执行管道Python模块 |
+
 
 ### 附录
 
