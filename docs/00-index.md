@@ -116,6 +116,7 @@
 | 60 | `60-system-overview-45-59.md` | 九宫体系总纲45-59 |
 | 61 | `61-great-circle-interpolation-and-attraction-results.md` | 大圆插值与双球体吸引力 |
 | 62 | `62-intent-action-pipeline-implementation-results.md` | 意图到执行管道Python模块 |
+
 ### 第九层：寻址优化与落地
 
 | 编号 | 文档 | 内容 |
@@ -129,7 +130,16 @@
 | 68 | `68-r4-threshold-comparison-results.md` | r=4下固定阈值与动态阈值对比 |
 | 69 | `69-three-sphere-results.md` | 三球体排列：停留分布 |
 | 70 | `70-pipeline-v2-results.md` | 管道v2：最优配置落地 |
+
+### 第十层：边界验证
+
+| 编号 | 文档 | 内容 |
+|---|---|---|
 | 71 | `71-system-overview-45-70.md` | 九宫体系总纲45-70 |
+| 72 | `72-729-space-radius-results.md` | 729宫空间中r=4/6/8对比 |
+| 73 | `73-three-sphere-plus-one-results.md` | 三球体加1/加3细粒度统计 |
+| 74 | `74-lookahead-radius-combination-results.md` | 深度前瞻+半径扩展组合对比 |
+| 75 | `75-continuous-dynamic-threshold-results.md` | 连续球面动态阈值v2推广 |
 
 ### 附录
 
@@ -222,6 +232,9 @@
 11. 加1在三球体中的不均匀分布根因。
 12. 深度前瞻与半径扩展能否结合。
 13. r=4在更大空间中的适用性。
+14. 729宫完整管道的发现次数与路径结构。
+15. 连续球面完整管道的运行验证。
+  
   
 
 ## 七、仓库结构
@@ -262,5 +275,7 @@ AI架构十八二五，通信市场二六二九。
 加一卡死六十五，半径扩展六十六。
 r四整合六十七，阈值对比六十八。
 三球排列六十九，管道v二七十号。
-总纲更新七十一，九宫体系此中全。
+总纲更新七十一，七二九宫r四通。
+三球加一七十三，前瞻半径七十四。
+连续阈值七十五，九宫体系此中全。
 
