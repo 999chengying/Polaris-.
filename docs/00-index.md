@@ -116,7 +116,20 @@
 | 60 | `60-system-overview-45-59.md` | 九宫体系总纲45-59 |
 | 61 | `61-great-circle-interpolation-and-attraction-results.md` | 大圆插值与双球体吸引力 |
 | 62 | `62-intent-action-pipeline-implementation-results.md` | 意图到执行管道Python模块 |
+### 第九层：寻址优化与落地
 
+| 编号 | 文档 | 内容 |
+|---|---|---|
+| 62 | `62-intent-action-pipeline-implementation-results.md` | 意图到执行管道Python模块 |
+| 63 | `63-lookahead-addressing-results.md` | 前瞻寻址：加3 z=1卡死修正 |
+| 64 | `64-lookahead-and-history-results.md` | 前瞻与历史：自指选址两原则 |
+| 65 | `65-add-one-deadlock-results.md` | 加1卡死多方案对比 |
+| 66 | `66-radius-extension-results.md` | 半径扩展：修正neighbors后对比 |
+| 67 | `67-r4d1-integration-results.md` | r=4 d=1整合验证 |
+| 68 | `68-r4-threshold-comparison-results.md` | r=4下固定阈值与动态阈值对比 |
+| 69 | `69-three-sphere-results.md` | 三球体排列：停留分布 |
+| 70 | `70-pipeline-v2-results.md` | 管道v2：最优配置落地 |
+| 71 | `71-system-overview-45-70.md` | 九宫体系总纲45-70 |
 
 ### 附录
 
@@ -206,6 +219,10 @@
 8. 新旧赋值混合空间中的决策一致性。
 9. 多目标决策下的阈值扩展。
 10. 幂次差参与决策评分的方案。
+11. 加1在三球体中的不均匀分布根因。
+12. 深度前瞻与半径扩展能否结合。
+13. r=4在更大空间中的适用性。
+  
 
 ## 七、仓库结构
 
@@ -238,4 +255,12 @@ AI架构十八二五，通信市场二六二九。
 寻址规则五十一，能动寻址五十二。
 咸恒转换五十三，四阶段管五十四。
 动态阈值五十五，伪代码在五十六。
+混合空间五十七，球体连续五十八。
+对径合十五十九，总纲初版六十号。
+大圆插值六十一，管道模块六十二。
+前瞻寻址六十三，前瞻历史六十四。
+加一卡死六十五，半径扩展六十六。
+r四整合六十七，阈值对比六十八。
+三球排列六十九，管道v二七十号。
+总纲更新七十一，九宫体系此中全。
 
