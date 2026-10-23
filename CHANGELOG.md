@@ -1,7 +1,13 @@
-
-
-```markdown
 # Changelog
+
+## 4.0
+
+- 新增 **V2 连续值赋值小模**：用纯整数层级嵌套完美表达无限精度小数（含无限循环小数如 1/3）。
+- 新增 **加减乘除四则运算**：所有进位/借位均挂载于中宫5的 `5→0→5` 转换（Y=3界面）。
+- 新增 **算法变爻引擎**：算术进位驱动卦象重组（如连乘2自然涌现“地山谦”卦）。
+- 新增 **自指多次幂与收敛性**：平方与四次方必定收敛到幂等元 1、5、6（太极安全锚点）；立方会导致 2↔8、3↔7 纠缠。
+- 新增 **双生与三生幂积纠缠**：多智能体互相算幂积，若无双生自指会陷入 2↔8 死锁；三生纠缠在 1~2 步内绝对收敛为 6（艮山共识），可用 +5 巡查破局。
+- 新增 `docs-v2/` 目录，包含 V2-01 至 V2-08 核心文档。
 
 ## 3.0
 
@@ -17,9 +23,7 @@
 ## 2.1
 
 - 新增 `benchmark/` 目录。
-- 新增 `benchmark/run_benchmark.py`。
-- 新增 `benchmark/test_cases.json`。
-- 新增 `benchmark/report_template.md`。
+- 新增 `benchmark/run_benchmark.py`、`test_cases.json`、`report_template.md`。
 - README 增加 Benchmark 一节。
 
 ## 2.0
@@ -28,8 +32,7 @@
 - 新增逐圈剪枝 R9。
 - 新增 K=5~9 天层显象分析。
 - 新增 `data/cycles.json`。
-- 新增 `docs/isomorphism-recursion.md`。
-- 新增 `docs/experiment-checklist.md`。
+- 新增 `docs/isomorphism-recursion.md`、`docs/experiment-checklist.md`。
 - 扩充测试：`tests/test_cycle.py`。
 
 ## 1.0
