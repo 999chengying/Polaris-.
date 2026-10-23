@@ -1,17 +1,68 @@
 {
-  "cases": [
-    {"type": "tetra", "numbers": [1, 6, 7, 8], "desc": "坤1宫生形"},
-    {"type": "tetra", "numbers": [1, 3, 6, 8], "desc": "表面共面空形"},
-    {"type": "tetra", "numbers": [3, 6, 9, 2], "desc": "正四面体3692"},
-    {"type": "tetra", "numbers": [1, 4, 7, 8], "desc": "正四面体8147"},
-    {"type": "tetra", "numbers": [2, 3, 4, 6], "desc": "变形2346"},
-    {"type": "tetra", "numbers": [1, 2, 4, 7], "desc": "生形1247阴径"},
-    {"type": "cycle", "K": 5, "start": "子", "desc": "K=5回文"},
-    {"type": "cycle", "K": 6, "start": "子", "desc": "K=6四正御街"},
-    {"type": "cycle", "K": 6, "start": "未", "desc": "K=6四维御街"},
-    {"type": "cycle", "K": 9, "start": "子", "desc": "K=9双恒"},
-    {"type": "tetra", "numbers": [3, 6, 9, 2], "desc": "四象·老阳相关3692"},
-    {"type": "tetra", "numbers": [1, 4, 7, 8], "desc": "四象·少阳相关8147"},
-    {"type": "cycle", "K": 5, "start": "子", "desc": "四象·K=5回文"}
-  ]
+  "v1_topology": {
+    "description": "空间拓扑判定：验证九宫几何形态与二十四山循环",
+    "cases": [
+      {"type": "tetra", "numbers": [1, 6, 7, 8], "desc": "坤1宫生形"},
+      {"type": "tetra", "numbers": [1, 3, 6, 8], "desc": "表面共面空形"},
+      {"type": "tetra", "numbers": [3, 6, 9, 2], "desc": "正四面体(恒) 3692"},
+      {"type": "tetra", "numbers": [1, 4, 7, 8], "desc": "正四面体(恒) 8147"},
+      {"type": "tetra", "numbers": [2, 3, 4, 6], "desc": "变形 2346"},
+      {"type": "tetra", "numbers": [1, 2, 4, 7], "desc": "生形 1247阴径"},
+      {"type": "cycle", "K": 5, "start": "子", "desc": "K=5 回文（变生化生变）"},
+      {"type": "cycle", "K": 6, "start": "子", "desc": "K=6 四正御街 1397"},
+      {"type": "cycle", "K": 6, "start": "未", "desc": "K=6 四维御街 2468"},
+      {"type": "cycle", "K": 9, "start": "子", "desc": "K=9 双恒（两个正四面体）"}
+    ]
+  },
+  "v2_arithmetic": {
+    "description": "纯整数算术与心智演化：验证连续小模、自指幂积与混沌收敛",
+    "cases": [
+      {
+        "type": "decimal_division", 
+        "dividend": 1, 
+        "divisor": 3, 
+        "depth": 10, 
+        "desc": "无限精度：1÷3（验证无浮点误差）"
+      },
+      {
+        "type": "decimal_division", 
+        "dividend": 1, 
+        "divisor": 7, 
+        "depth": 8, 
+        "desc": "走马灯循环：1÷7（七日来复）"
+      },
+      {
+        "type": "power_iteration", 
+        "start": 2, 
+        "power": 2, 
+        "steps": 5, 
+        "desc": "自指平方：从2开始（预期收敛至6）"
+      },
+      {
+        "type": "power_iteration", 
+        "start": 3, 
+        "power": 3, 
+        "steps": 5, 
+        "desc": "自指立方：从3开始（预期2↔8纠缠）"
+      },
+      {
+        "type": "triple_entanglement", 
+        "A": 2, "B": 3, "C": 4, 
+        "m": 2, "n": 2, "p": 2, 
+        "desc": "三体纠缠：初始(2,3,4)（预期1步坍缩为666）"
+      },
+      {
+        "type": "dual_entanglement", 
+        "A": 4, "B": 7, 
+        "m": 3, "n": 2, 
+        "desc": "极限周期：非对称指数（预期陷入(6,8)↔(4,2)死锁）"
+      },
+      {
+        "type": "tai_ji_mutation", 
+        "state": [0, 0, 9], 
+        "action": "add_one", 
+        "desc": "算术变爻：千分位极点溢出（触发地山谦卦）"
+      }
+    ]
+  }
 }
