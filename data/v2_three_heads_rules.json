@@ -1,0 +1,35 @@
+{
+  "description": "Polaris V2 三头六臂阵法（具身智能/多智能体同步架构）",
+  "structure": {
+    "body_X": "空间位移/主体运算组",
+    "shadow_1_Y": "电磁频率/合十镜像组",
+    "shadow_2_Z": "光学能量/加5翻转组"
+  },
+  "evolution_rules": {
+    "base_multiplier": 2,
+    "overflow_modulo": 99,
+    "center_switch_threshold": 99,
+    "no_substitution": "真实演化：不强行替换5和0，让其自然进位"
+  },
+  "fault_tolerance_mechanisms": {
+    "micro_deadlock": {
+      "name": "身死影走",
+      "trigger": "周期为2的局部死循环 (如33<->66)",
+      "action": "调用合十态 X_shadow = (10 - X)"
+    },
+    "macro_deadlock": {
+      "name": "裁成辅相",
+      "trigger": "10步以上的宏观长周期循环",
+      "action": "温和改变演化乘数 (2->5->7->9)"
+    },
+    "ultimate_reset": {
+      "name": "用十归零",
+      "trigger": "所有乘数失效，系统绝对僵死",
+      "action": "重置为无极态 (01或10)"
+    }
+  },
+  "coverage_proof": {
+    "start_node_16": "乘2长跑30步，覆盖43卦",
+    "start_node_11": "归藏易坤门，结合多种乘数，100%覆盖64卦"
+  }
+}
