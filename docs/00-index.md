@@ -18,5 +18,9 @@
 - [V5 大模型对接 (docs-v5)](./docs-v5/)（PTPP防幻觉网关、拓扑语素生成、端到端闭环）
 
 ## 附录与可视化
-- [可视化图集](./76-visual-atlas.md)（拓扑几何与路径动力学 SVG 图）
+- [可视化图集](./visual-atlas.md)（拓扑几何与路径动力学 SVG 图）
 - [实验清单](./08-experiment-checklist.md)
+
+- [早期灵感溯源与哲学蓝图](./99-origin-and-philosophy.md)
+
+---
